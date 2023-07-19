@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		_putchar(48);
 
-		for (mult = 0; mult <= 9; mult++)
+		for (mult = 1; mult <= 9; mult++)
 		{
 			_putchar('.');
 			_putchar(' ');
@@ -23,6 +23,7 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((res / 10) + 48);
+
 			_putchar((res % 10) + 48);
 		}
 		putchar('\n');
