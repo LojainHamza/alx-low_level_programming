@@ -1,5 +1,5 @@
-#include "main.h
-"
+#include "main.h"
+
 /**
  * _abs - calculate the absolute value of an integer.
  * @n: takes in integer type inpt for function
